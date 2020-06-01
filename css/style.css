@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*스킵 네비게이션*/
+#skip {position: relative;}
+#skip a {position: absolute; left: 0; top: -35px; border: 1px solid #fff; color: #fff; background: #333; line-height: 30px; width: 140px; text-align: center;}
+#skip a:active,
+#skip a:focus {top: 0;}
+
+/*레이아웃*/
+#wrap {}
+#header {height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
+#contents {height: 800px; background: #222;}
+#footer {height: 200px; background: #333;}
+
+/*컨텐츠 레이아웃*/
+#cont_nav {height: 200px; background: #333;}
+#cont_tit {height: 200px; background: #444;}
+#cont_ban {height: 200px; background: #555;}
+#cont_cont {height: 200px; background: #666;}
+
+/*컨테이너*/
+.container {width: 990px; margin: 0 auto; height: inherit; /*background: rgba(255, 255, 255, 0.3);*/}
+
+/*헤더*/
+.header {}
+.header .header-menu {text-align: right;}
+.header .header-menu a {color: #fff; padding: 10px 0 10px 13px; display: inline-block;}
+.header .header-menu a:hover {color: #9c63d8;}
+/*header-tit*/
+.header .header-tit {text-align: center;}
+.header .header-tit h1 {background-color: #571468; font-size: 28px; padding: 5px 20px 6px 20px; display: inline-block; color: #fff; margin-top: 40px; font-weight: normal; text-transform: uppercase;}
+.header .header-tit a {background-color: #781b8f; display: inline-block; font-size: 18px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
+/*header-icon*/
+.header .header-icon {text-align: center; margin-top: 30px;}
+.header .header-icon a {width: 57px; height: 57px; display: inline-block; margin: 0 3px; background-image: url(../img/icon_header.png);}
+
+.header .header-icon a.icon1 {background-position: 0 -1200px;}
+.header .header-icon a.icon2 {background-position: 0 -120px;}
+.header .header-icon a.icon3 {background-position: 0 -240px;}
+.header .header-icon a.icon4 {background-position: 0 -360px;}
+.header .header-icon a.icon1:hover {background-position: 0 -1260px;}
+.header .header-icon a.icon2:hover {background-position: 0 -180px;}
+.header .header-icon a.icon3:hover {background-position: 0 -300px;}
+.header .header-icon a.icon4:hover {background-position: 0 -420px;}
